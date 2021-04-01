@@ -6445,6 +6445,10 @@ python3-packaging:
   openembedded: [python3-packaging@openembedded-core]
   rhel: ['python%{python3_pkgversion}-packaging']
   ubuntu: [python3-packaging]
+python3-paho-mqtt-pip:
+  ubuntu:
+    pip:
+      packages: [paho-mqtt]
 python3-pandas:
   debian: [python3-pandas]
   fedora: [python3-pandas]
