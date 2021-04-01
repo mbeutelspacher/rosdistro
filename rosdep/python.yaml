@@ -3807,6 +3807,10 @@ python-pyzbar-pip:
   ubuntu:
     pip:
       packages: [pyzbar]
+python-py-ubjson-pip:
+  ubuntu:
+    pip:
+      packages: [py-ubjson]
 python-qrencode:
   debian: [python-qrencode]
   gentoo: [media-gfx/qrencode-python]
@@ -6870,6 +6874,10 @@ python3-pyvista-pip:
   ubuntu:
     pip:
       packages: [pyvista]
+python3-py-ubjson-pip:
+  ubuntu:
+    pip:
+      packages: [py-ubjson]
 python3-qt5-bindings:
   alpine: [py3-qt5]
   arch: [python-pyqt5]
